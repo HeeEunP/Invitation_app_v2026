@@ -1,0 +1,37 @@
+/* NumberBarControl.css */
+
+.control-root {
+  width: 100%;
+  text-align: center;
+  padding: 100px 20px;
+  user-select: none;
+  touch-action: none;
+  background-color: #121212;
+  color: white;
+  /* min-height: 100vh; */
+}
+.control-bar {
+  width: 100%;
+  max-width: 600px;
+  height: 20px;
+  background: #333;
+  margin: 150px auto;
+  position: relative;
+  border-radius: 10px;
+  cursor: ns-resize;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.control-dot {
+  width: 40px;
+  height: 40px;
+  background: #ff4757;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  box-shadow: 0 0 15px rgba(255, 71, 87, 0.5);
+}
+
+.small-text {
+color: #666;
+}
